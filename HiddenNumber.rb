@@ -20,7 +20,7 @@ if answer == "yes"
       guess = gets.to_i
 
       if tries == 1
-        puts "Out of tries. You lose, #{name}. :("
+        puts "It was #{random_number}. You are out of tries. You lose, #{name}. :("
         break
       end
       if guess < random_number
